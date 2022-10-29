@@ -5,5 +5,5 @@
 [![](https://img.shields.io/badge/maven-3.6-brightgreen.svg)](https://maven.apache.org/download.cgi)
 ![](https://img.shields.io/badge/language-kotlin-blue.svg)
 
-Kotlin SDK of membership-access API
+Kotlin SDK of [membership-access-server](https://github.com/wutsi/membership-access-server)
 
