@@ -8,6 +8,7 @@ import com.wutsi.membership.access.dto.GetAccountResponse
 import com.wutsi.membership.access.dto.GetCategoryResponse
 import com.wutsi.membership.access.dto.GetPlaceResponse
 import com.wutsi.membership.access.dto.SaveAccountDeviceRequest
+import com.wutsi.membership.access.dto.SaveCategoryRequest
 import com.wutsi.membership.access.dto.SavePlaceRequest
 import com.wutsi.membership.access.dto.SearchAccountRequest
 import com.wutsi.membership.access.dto.SearchAccountResponse
@@ -68,6 +69,10 @@ public interface MembershipAccessApi {
   @RequestLine("GET /v1/categories/{id}")
   @Headers(value=["Content-Type: application/json"])
   public fun getCategory(@Param("id") id: Long): GetCategoryResponse
+
+  @RequestLine("POST /v1/categories/{id}")
+  @Headers(value=["Content-Type: application/json"])
+  public fun saveCategory(@Param("id") id: Long, request: SaveCategoryRequest): Unit
 
   @RequestLine("GET /v1/places/{id}")
   @Headers(value=["Content-Type: application/json"])
