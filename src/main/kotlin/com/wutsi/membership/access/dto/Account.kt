@@ -30,4 +30,6 @@ public data class Account(
   public val instagramId: String? = null,
   public val twitterId: String? = null,
   public val youtubeId: String? = null,
+  public val storeId: Long? = null,
+  public val walletId: Long? = null,
 )

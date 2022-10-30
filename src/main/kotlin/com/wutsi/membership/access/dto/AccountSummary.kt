@@ -18,4 +18,6 @@ public data class AccountSummary(
   public val business: Boolean = false,
   public val city: PlaceSummary = PlaceSummary(),
   public val category: CategorySummary = CategorySummary(),
+  public val storeId: Long? = null,
+  public val walletId: Long? = null,
 )
