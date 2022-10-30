@@ -7,7 +7,6 @@ import kotlin.String
 public data class SavePlaceRequest(
   public val id: Long = 0,
   public val name: String = "",
-  public val nameFrench: String = "",
   public val country: String = "",
   public val type: String = "",
   public val longitude: Double? = null,
