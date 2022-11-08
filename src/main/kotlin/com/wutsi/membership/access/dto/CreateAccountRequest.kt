@@ -9,5 +9,5 @@ public data class CreateAccountRequest(
   public val country: String = "",
   public val displayName: String = "",
   public val pictureUrl: String? = null,
-  public val cityId: Long = 0,
+  public val cityId: Long? = null,
 )

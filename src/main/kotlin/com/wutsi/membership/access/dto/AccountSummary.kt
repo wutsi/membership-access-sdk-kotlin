@@ -16,8 +16,8 @@ public data class AccountSummary(
   public val updated: OffsetDateTime = OffsetDateTime.now(),
   public val superUser: Boolean = false,
   public val business: Boolean = false,
-  public val city: PlaceSummary = PlaceSummary(),
-  public val category: CategorySummary = CategorySummary(),
+  public val cityId: Long = 0,
+  public val categoryId: Long? = null,
   public val storeId: Long? = null,
   public val walletId: Long? = null,
 )
