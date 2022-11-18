@@ -1,5 +1,6 @@
 package com.wutsi.membership.access.dto
 
+import kotlin.Boolean
 import kotlin.Long
 import kotlin.String
 
@@ -10,5 +11,5 @@ public data class EnableBusinessRequest(
   public val cityId: Long = 0,
   public val street: String? = null,
   public val biography: String? = null,
-  public val whatsapp: String? = null,
+  public val whatsapp: Boolean = false,
 )
