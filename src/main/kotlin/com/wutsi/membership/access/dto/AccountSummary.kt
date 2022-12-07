@@ -13,7 +13,6 @@ public data class AccountSummary(
   public val language: String = "",
   public val country: String = "",
   public val created: OffsetDateTime = OffsetDateTime.now(),
-  public val updated: OffsetDateTime = OffsetDateTime.now(),
   public val superUser: Boolean = false,
   public val business: Boolean = false,
   public val cityId: Long? = null,
